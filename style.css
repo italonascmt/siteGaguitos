@@ -1,0 +1,148 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    color: #222;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: linear-gradient(to right, #f78ca0, #f9748f);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  nav {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    margin: 10px 8px;
+    padding: 12px 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #1ebd5b;
+  }
+  
+  section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  h2 {
+    color: #e91e63;
+    border-bottom: 2px solid #f8bbd0;
+    padding-bottom: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #fce4ec;
+    color: #c2185b;
+  }
+  
+  .colors-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .color-box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 0.9em;
+    background-color: #fff;
+  }
+  
+  .img-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .img-box {
+    flex: 1 1 300px;
+    max-width: 400px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .img-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #e57373;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease;
+  }
+  
+  .img-box img:hover {
+    transform: scale(1.05);
+  }
+  
+  .img-box p {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #6a1b1a;
+  }
+  
+  footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .color-box {
+      width: 80px;
+      height: 80px;
+      font-size: 0.8em;
+      line-height: 80px;
+    }
+  
+    .img-box {
+      flex: 1 1 100%;
+    }
+  }
+  
